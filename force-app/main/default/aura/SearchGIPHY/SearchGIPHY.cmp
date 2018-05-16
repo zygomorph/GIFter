@@ -48,14 +48,14 @@
 
   <lightning:card iconName="utility:search" title="GIPHY Search Terms">
 
-    <lightning:layout verticalAlign="end" class="path-to-zip slds-m-around--small">
+    <lightning:layout verticalAlign="end" class="path-to-zip slds-m-around_small">
       <lightning:layoutitem flexibility="grow">
         <span onkeypress="{!c.keyCheck}">
           <lightning:input aura:id="searchTerms" type="text" label="Search Terms" value="{!v.searchTerms}" />
         </span>
       </lightning:layoutitem>
       <lightning:layoutitem>
-        <lightning:button onclick="{!c.search}">Search</lightning:button>
+        <lightning:button onclick="{!c.search}">Search GIPHY</lightning:button>
       </lightning:layoutitem>
     </lightning:layout>
 
